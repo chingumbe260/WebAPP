@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up | Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar (IDENTICAL to homepage) -->
+  <header class="navbar">
+    <h1 class="logo">Expense Tracker</h1>
+
+    <div class="nav-container">
+      <nav class="nav-links">
+        <a href="homepage.html">Back To Homepgae</a>
+    </div>
+  </header>
+
+  <!-- Auth Section (REPLACES hero) -->
+  <section class="auth-section">
+    <div class="auth-container">
+      <h2>Create Account</h2>
+
+      <form action="#" method="post">
+        <input type="text" name="fullname" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+
+        <label class="plan-label">Select Plan</label>
+        <select name="plan" required>
+          <option value="">-- Choose a Plan --</option>
+          <option value="free">Free Plan</option>
+          <option value="paid">Paid Plan</option>
+        </select>
+
+        <button type="submit">Sign Up</button>
+      </form>
+
+      <p>
+        Already have an account?
+        <a href="Login.html">Login</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Features (COPIED from homepage) -->
+  <section id="features" class="features">
+    <h2>Why Expense Tracker?</h2>
+
+    <div class="feature-grid">
+      <div class="card">
+        <h3>Envelope Budgeting</h3>
+        <p>Allocate money to categories and never overspend.</p>
+      </div>
+
+      <div class="card">
+        <h3>Track Expenses</h3>
+        <p>Log every transaction and see where your money goes.</p>
+      </div>
+
+      <div class="card">
+        <h3>Simple & Secure</h3>
+        <p>No complicated setup. Your data stays private.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA (COPIED from homepage) -->
+  <section id="get-started" class="cta">
+    <h2>Take control of your finances today</h2>
+    <a href="Signup.html" class="cta-btn">Create Free Account</a>
+  </section>
+
+  <!-- Footer (COPIED from homepage) -->
+  <footer class="footer">
+    <p>© 2026 Expense Tracker. All rights reserved.</p>
+    <p>Call us at 0777103212</p>
+  </footer>
+
+</body>
+</html>
